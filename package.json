@@ -2,6 +2,7 @@
 	"name": "dapp-days",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://leongpeilin.github.io/hedera-fixed",
 	"dependencies": {
 		"@hashgraph/sdk": "^2.14.2",
 		"@testing-library/jest-dom": "^5.16.2",
