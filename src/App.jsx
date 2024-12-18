@@ -44,14 +44,6 @@ function App() {
 	const [contractLinkSt, setContractLinkSt] = useState();
 	const [transferLinkSt, setTransferLinkSt] = useState();
 
-	const { Client } = require("@hashgraph/sdk");
-	require("dotenv").config();
-	
-	const client = Client.forTestnet();
-	client.setOperator(process.env.HEDERA_ACCOUNT_ID, process.env.HEDERA_PRIVATE_KEY);
-	
-	console.log("Connected to Hedera Testnet!");
-
 
 	async function bankconnectWallet() {
 		if (bankAccountId !== undefined) {
